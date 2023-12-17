@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8e3de;
+}
+
+div{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    margin: 1vw;
+}
+
+button{
+    padding: 0.8vw;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-80%);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#reload{
+    display: none;
+    top: 90%;
+}
