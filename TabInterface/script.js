@@ -4,7 +4,7 @@ var content = document.querySelectorAll('h3')
 tab.forEach(function (el, i) {
     el.addEventListener('click', function () {
         hideAll();
-        content[i].style.display = "initial";
+        content[i].style.display = "block";
     })      
 })
 
