@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    padding: 2.5vw;
+}
+
+h3{
+    margin-top: 1vw;
+}
+
+.item:hover{
+    cursor: pointer;
+    scale: 1;
+    font-weight: 800;
+}
