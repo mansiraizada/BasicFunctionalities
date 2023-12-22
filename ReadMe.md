@@ -1,0 +1,1 @@
+Basic functionalities using JavaScript.
